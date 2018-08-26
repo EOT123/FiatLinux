@@ -15,7 +15,9 @@ def littledraw():
     trt.begin_fill()
     trt.circle(randsize)
     trt.end_fill()
-
+'''
+Short Comment
+'''
 scr.listen() # readies screen events
 scr.update()# refreshes the screen
 scr.onkey(littledraw, "a")
