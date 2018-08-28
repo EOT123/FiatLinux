@@ -14,6 +14,7 @@ def littledraw():
     trt.pendown()
     trt.begin_fill()
     trt.circle(randsize)
+    trt.circle(100)
     trt.end_fill()
 '''
 Short Comment
